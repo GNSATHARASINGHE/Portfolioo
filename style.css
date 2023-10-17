@@ -199,14 +199,15 @@ nav ul li a:hover::after{    /*menu bar ekta cursor eka aran yddi irak andena ek
     overflow: hidden;
 }
 .work img{
-    width: 100%;
+    width: 75%;
+    height: 50%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;    /*pop up wela pena seen eka */
 }
 .layer{
-    width: 100%;
-    height: 0;                    /* clr eka invisible una 0 krta passe*/
+    width: 75%;
+    height: 30%;                    /* clr eka invisible una 0 krta passe*/
     background: linear-gradient(rgba(0,0,0,0.6),#0eb5f2);
     border-radius: 10px;
     position: absolute; 
