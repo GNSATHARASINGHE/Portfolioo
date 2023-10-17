@@ -23,7 +23,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="" class="logo" width="8%" height="8%">
+                <img src="2.png" class="logo" width="4%" height="0%">
                <ul id=" left sidemenu">    
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -35,7 +35,7 @@
                <i class="fas fa-bars" onclick="openmenu()"></i>  
             </nav>
             <div class="header-text">
-                <p>Undergraduate Student</p>
+                <p><span class="auto-type"></span></p>
                 <h1>Hi, I'm <span> Gauri </span><br> Satharasinghe from Sri Lanka</h1>
                 <a href="cv.pdf" download class="btn btn2">Download CV</a>
             </div>
@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="my.png">
+                <img src="about.jpg">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
@@ -212,6 +212,15 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
-    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed=new Typed(".auto-type",{
+            strings:["Undergraduate Student","Coder","Web Developer"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+    </script>
 </body>
 </html>
